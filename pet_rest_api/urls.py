@@ -22,7 +22,4 @@ from . import index
 urlpatterns = [
     path('', include('pet_swipe_api.urls')), # add this
     path('admin/', admin.site.urls),
-    path('',index.webpage1),
-    path('page2',index.webpage2),
-    path('page3',index.webpage3),
 ]
